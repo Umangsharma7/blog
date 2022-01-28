@@ -1,0 +1,192 @@
+{
+  "id": "/subscriptions/be55738e-9fb5-471a-8635-e9bef6cb0af5/resourceGroups/Brain-Coral/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-a1db69ff-aebd",
+  "name": "Microsoft.Web-WebApp-Portal-a1db69ff-aebd",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/be55738e-9fb5-471a-8635-e9bef6cb0af5/resourcegroups/Brain-Coral/providers/Microsoft.Web/sites/Brain-coral",
+    "marketplaceItemId": "Microsoft.WebSite",
+    "provisioningHash": "customize-post-provisioning-steps-webapp-deployment"
+  },
+  "properties": {
+    "templateHash": "5141077459548575705",
+    "parameters": {
+      "subscriptionId": {
+        "type": "String",
+        "value": "be55738e-9fb5-471a-8635-e9bef6cb0af5"
+      },
+      "name": {
+        "type": "String",
+        "value": "Brain-coral"
+      },
+      "location": {
+        "type": "String",
+        "value": "Central India"
+      },
+      "hostingPlanName": {
+        "type": "String",
+        "value": "ASP-BrainCoral-ba6b"
+      },
+      "serverFarmResourceGroup": {
+        "type": "String",
+        "value": "Brain-Coral"
+      },
+      "alwaysOn": {
+        "type": "Bool",
+        "value": false
+      },
+      "sku": {
+        "type": "String",
+        "value": "Free"
+      },
+      "skuCode": {
+        "type": "String",
+        "value": "F1"
+      },
+      "workerSize": {
+        "type": "String",
+        "value": "0"
+      },
+      "workerSizeId": {
+        "type": "String",
+        "value": "0"
+      },
+      "numberOfWorkers": {
+        "type": "String",
+        "value": "1"
+      },
+      "currentStack": {
+        "type": "String",
+        "value": "java"
+      },
+      "phpVersion": {
+        "type": "String",
+        "value": "OFF"
+      },
+      "javaVersion": {
+        "type": "String",
+        "value": "11"
+      },
+      "javaContainer": {
+        "type": "String",
+        "value": "JAVA"
+      },
+      "javaContainerVersion": {
+        "type": "String",
+        "value": "SE"
+      },
+      "repoUrl": {
+        "type": "String",
+        "value": "https://github.com/Umangsharma7/blog"
+      },
+      "branch": {
+        "type": "String",
+        "value": "main"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Running",
+    "timestamp": "2022-01-28T12:37:28.6639769Z",
+    "duration": "PT20.610387S",
+    "correlationId": "11b1ffb4-6f11-4936-a9d3-70781776ca45",
+    "providers": [
+      {
+        "namespace": "Microsoft.Web",
+        "resourceTypes": [
+          {
+            "resourceType": "sites",
+            "locations": [
+              "centralindia"
+            ]
+          },
+          {
+            "resourceType": "sites/sourcecontrols",
+            "locations": [
+              null
+            ]
+          },
+          {
+            "resourceType": "serverfarms",
+            "locations": [
+              "centralindia"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "microsoft.insights",
+        "resourceTypes": [
+          {
+            "resourceType": "components",
+            "locations": [
+              "centralindia"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Resources",
+        "resourceTypes": [
+          {
+            "resourceType": "deployments",
+            "locations": [
+              null
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/be55738e-9fb5-471a-8635-e9bef6cb0af5/resourceGroups/Brain-Coral/providers/microsoft.insights/components/Brain-coral",
+            "resourceType": "microsoft.insights/components",
+            "resourceName": "Brain-coral"
+          },
+          {
+            "id": "/subscriptions/be55738e-9fb5-471a-8635-e9bef6cb0af5/resourceGroups/Brain-Coral/providers/Microsoft.Web/serverfarms/ASP-BrainCoral-ba6b",
+            "resourceType": "Microsoft.Web/serverfarms",
+            "resourceName": "ASP-BrainCoral-ba6b"
+          },
+          {
+            "id": "/subscriptions/be55738e-9fb5-471a-8635-e9bef6cb0af5/resourceGroups/Brain-Coral/providers/microsoft.insights/components/Brain-coral",
+            "resourceType": "microsoft.insights/components",
+            "resourceName": "Brain-coral",
+            "apiVersion": "2015-05-01"
+          }
+        ],
+        "id": "/subscriptions/be55738e-9fb5-471a-8635-e9bef6cb0af5/resourceGroups/Brain-Coral/providers/Microsoft.Web/sites/Brain-coral",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "Brain-coral"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/be55738e-9fb5-471a-8635-e9bef6cb0af5/resourceGroups/Brain-Coral/providers/Microsoft.Web/Sites/Brain-coral",
+            "resourceType": "Microsoft.Web/Sites",
+            "resourceName": "Brain-coral"
+          }
+        ],
+        "id": "/subscriptions/be55738e-9fb5-471a-8635-e9bef6cb0af5/resourceGroups/Brain-Coral/providers/Microsoft.Web/sites/Brain-coral/sourcecontrols/web",
+        "resourceType": "Microsoft.Web/sites/sourcecontrols",
+        "resourceName": "Brain-coral/web"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/be55738e-9fb5-471a-8635-e9bef6cb0af5/resourceGroups/DefaultResourceGroup-CID/providers/Microsoft.Resources/deployments/newWorkspaceTemplate",
+            "resourceType": "Microsoft.Resources/deployments",
+            "resourceName": "newWorkspaceTemplate"
+          }
+        ],
+        "id": "/subscriptions/be55738e-9fb5-471a-8635-e9bef6cb0af5/resourceGroups/Brain-Coral/providers/microsoft.insights/components/Brain-coral",
+        "resourceType": "microsoft.insights/components",
+        "resourceName": "Brain-coral"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "/subscriptions/be55738e-9fb5-471a-8635-e9bef6cb0af5/resourceGroups/Brain-Coral/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-a1db69ff-aebd/operations/F2CA7B97BD7D3BD1",
+    "operationId": "F2CA7B97BD7D3BD1",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-01-28T12:38:15.7270129Z",
+      "duration": "PT21.6729485S",
+      "trackingId": "796ed3ef-2eed-4211-9ecc-cffa17148132",
+      "serviceRequestId": "d5076dec-9c97-4d21-9f41-7c9e921d70a6",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/be55738e-9fb5-471a-8635-e9bef6cb0af5/resourceGroups/Brain-Coral/providers/Microsoft.Web/sites/Brain-coral",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "Brain-coral"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/be55738e-9fb5-471a-8635-e9bef6cb0af5/resourceGroups/Brain-Coral/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-a1db69ff-aebd/operations/3ECBB6D3684D2485",
+    "operationId": "3ECBB6D3684D2485",
+    "properties": {
+      "provisioningOperation": "Read",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-01-28T12:37:54.0233217Z",
+      "duration": "PT45.8565343S",
+      "trackingId": "8527bd6a-a967-4429-b1e9-6c667bdb448d",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/be55738e-9fb5-471a-8635-e9bef6cb0af5/resourceGroups/Brain-Coral/providers/microsoft.insights/components/Brain-coral",
+        "resourceType": "microsoft.insights/components",
+        "resourceName": "Brain-coral",
+        "apiVersion": "2015-05-01"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/be55738e-9fb5-471a-8635-e9bef6cb0af5/resourceGroups/Brain-Coral/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-a1db69ff-aebd/operations/CFB2204A6267DD48",
+    "operationId": "CFB2204A6267DD48",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-01-28T12:37:53.6172812Z",
+      "duration": "PT45.4504938S",
+      "trackingId": "931710c9-04f6-4dc8-9718-12d03a2a6c58",
+      "serviceRequestId": "10faa3dc-7b24-448f-8fb1-1b2a9ce21dc3",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/be55738e-9fb5-471a-8635-e9bef6cb0af5/resourceGroups/Brain-Coral/providers/microsoft.insights/components/Brain-coral",
+        "resourceType": "microsoft.insights/components",
+        "resourceName": "Brain-coral"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/be55738e-9fb5-471a-8635-e9bef6cb0af5/resourceGroups/Brain-Coral/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-a1db69ff-aebd/operations/73B12C477CE05E34",
+    "operationId": "73B12C477CE05E34",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-01-28T12:37:44.9003902Z",
+      "duration": "PT36.7336028S",
+      "trackingId": "dcf090a0-33b0-41db-953d-b91e41258f8a",
+      "serviceRequestId": "f159f870-b738-4013-b8ca-f7cbdb6bba38",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/be55738e-9fb5-471a-8635-e9bef6cb0af5/resourceGroups/DefaultResourceGroup-CID/providers/Microsoft.Resources/deployments/newWorkspaceTemplate",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "newWorkspaceTemplate"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/be55738e-9fb5-471a-8635-e9bef6cb0af5/resourceGroups/Brain-Coral/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-a1db69ff-aebd/operations/3608F3B03AE64CB8",
+    "operationId": "3608F3B03AE64CB8",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-01-28T12:37:10.650633Z",
+      "duration": "PT2.4838456S",
+      "trackingId": "81b803cd-c400-4da2-8f02-cc27fa1f55d7",
+      "serviceRequestId": "44c54eb7-6448-4653-aa51-b7cc2752488b",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/be55738e-9fb5-471a-8635-e9bef6cb0af5/resourceGroups/Brain-Coral/providers/Microsoft.Web/serverfarms/ASP-BrainCoral-ba6b",
+        "resourceType": "Microsoft.Web/serverfarms",
+        "resourceName": "ASP-BrainCoral-ba6b"
+      }
+    }
+  }
+]
